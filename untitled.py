@@ -2,11 +2,7 @@ import bpy
 import random
 import mathutils
 
-"""Example of creating a camera and a few spotlights.
-
-Although this creates quite a rudimentary scene, it is our first attempt
-at adding lights and cameras to a scene with python, so pretty good considering.
-"""
+"""Example of creating a camera and a few spotlights."""
 
 bpy.ops.object.select_all(action='SELECT')
 bpy.ops.object.delete(use_global=False, confirm=False)
